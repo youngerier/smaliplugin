@@ -1,0 +1,11 @@
+name: GitHub Actions Demo
+on: push
+
+jobs:
+  my-job:
+    name: m
+    runs-on: ubuntu-latest
+    setps:
+      - name b
+        run: |
+          gradle build -x test
