@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      -name: show task
+      - name: show task
         run: chmod +x ./gradlew && ./gradlew tasks
       - name: Build with Gradle
         run:  chmod +x ./gradlew && ./gradlew build -x test
