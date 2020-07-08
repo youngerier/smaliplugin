@@ -6,5 +6,5 @@ jobs:
     name: m
     runs-on: ubuntu-latest
     setps:
-      - name b
+      - name: b
         run: gradle build -x test
