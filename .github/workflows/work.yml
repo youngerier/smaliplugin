@@ -14,7 +14,7 @@ jobs:
       - name: show task
         run: chmod +x ./gradlew && ./gradlew tasks
       - name: Build with Gradle
-        run:  chmod +x ./gradlew && ./gradlew build -x test
+        run:  chmod +x ./gradlew && ./gradlew buildPlugin
       - uses: actions/upload-artifact@v1
         with:
           name: Package
