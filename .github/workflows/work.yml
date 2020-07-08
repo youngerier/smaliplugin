@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     setps:
       - name b
-        run: |
-          gradle build -x test
+        run: gradle build -x test
